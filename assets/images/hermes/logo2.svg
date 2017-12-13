@@ -1,0 +1,110 @@
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="330px" height="107.333px" viewBox="0 0 175 107.333" style="enable-background:new 0 0 175 107.333;" xml:space="preserve">
+    <style type="text/css">
+    .st0 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+    }
+    
+    .st1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 0.9;
+        stroke-miterlimit: 10;
+    }
+    
+    .st2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 0.4973;
+        stroke-miterlimit: 10;
+    }
+    
+    .st3 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 0.2122;
+        stroke-miterlimit: 10;
+    }
+    .moving {
+    	position: relative;
+        animation: wing 1s linear infinite;
+        -webkit-animation: wing 1s linear infinite;
+    }
+    
+    @-webkit-keyframes wing {
+        0% {
+            opacity: 0;
+            transform: translate(0px);
+        }
+        25% {
+            opacity: 0.5;
+            transform: translate(-10px);
+        }
+        50% {
+            opacity: 0.75;
+            transform: translate(-20px);
+        }
+        75% {
+            opacity: 1;
+            transform: translate(-30px);
+        }
+        100% {
+            opacity: 0.5;
+            transform: translate(-43px);
+        }
+    }
+
+    @keyframes wing {
+        0% {
+            opacity: 0;
+            transform: translate(0px);
+        }
+        25% {
+            opacity: 0.5;
+            transform: translate(-10px);
+        }
+        50% {
+            opacity: 0.75;
+            transform: translate(-20px);
+        }
+        75% {
+            opacity: 1;
+            transform: translate(-30px);
+        }
+        100% {
+            opacity: 0.5;
+            transform: translate(-43px);
+        }
+    }
+    #XMLID_3_ {
+    	animation-delay: 0.1s; 
+    	-webkit-animation-delay: 0.1s;
+    }
+    #XMLID_4_ {
+    	animation-delay: 0.4s; 
+    	-webkit-animation-delay: 0.4s;
+    }
+    #XMLID_5_ {
+    	animation-delay: 0.2s; 
+    	-webkit-animation-delay: 0.2s;
+    }
+    </style>
+    <path id="XMLID_1_" class="st0" d="M140.965,26.901c0,0,6.807-21.165-16.777-15.827S25.321,33.45,25.321,33.45
+	s2.276,18.965,23.24,14.221s43.974-9.953,43.974-9.953" />
+    <line id="XMLID_3_" class="st0 moving" x1="10.48" y1="51.163" x2="18.282" y2="49.397" />
+    <line id="XMLID_4_" class="st0 moving" x1="18.668" y1="64.689" x2="39.15" y2="60.054" />
+    <line id="XMLID_5_" class="st0 moving" x1="45.387" y1="74.021" x2="57.091" y2="71.372" />
+    <path id="XMLID_2_" class="st0" d="M44.01,49.078c0,0,4.983,16.95,19.348,13.699c14.365-3.251,38.027-8.607,38.027-8.607" />
+    <path id="XMLID_7_" class="st0" d="M63.034,62.627c0,0,5.169,11.356,13.265,9.524s41.391-9.368,41.391-9.368" />
+    <path id="XMLID_9_" class="st0" d="M142.314,45.484c0.647-0.3,1.316-0.533,1.996-0.687c4.4-0.996,7.516,1.689,6.971,5.915
+	c-0.534,4.138-4.391,8.206-8.626,9.165c-4.235,0.959-7.374-1.527-7.003-5.627" />
+    <path id="XMLID_10_" class="st0" d="M141.026,27.655c15.461-6.786,28.753-0.305,29.417,13.636
+	c0.62,13.002-10.137,27.559-23.812,33.213c-13.485,5.576-26.049,0.921-28.364-11.018c-0.061-0.313-0.114-0.629-0.16-0.946" />
+    <polygon id="XMLID_8_" class="st1" points="141.365,76.443 141.574,77.421 37.066,100.336 " />
+    <polygon id="XMLID_12_" class="st2" points="126.434,73.9 126.549,74.44 68.801,87.102 " />
+    <polygon id="XMLID_13_" class="st3" points="119.292,69.527 119.341,69.757 94.706,75.159 " />
+</svg>
