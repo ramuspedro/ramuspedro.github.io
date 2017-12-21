@@ -2404,4 +2404,8 @@ p {
 .center {
   text-align: center; }
 
+@media only screen and (max-width: 768px) {
+  body {
+    height: 640px; } }
+
 /*# sourceMappingURL=styles.bundle.css.map*/
