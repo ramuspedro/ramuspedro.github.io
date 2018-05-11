@@ -1,0 +1,157 @@
+// index page
+
+/*
+    Considerations 
+*/
+
+// section
+section {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+// article
+article {
+    margin-top: 5rem;
+}
+
+textarea {
+    resize: none;
+}
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-custom;
+    line-height: $line-height-custom;
+    color: $black-color;
+    font-weight: 300;
+    background-color: $body-bg;
+}
+
+header {
+    h4 {
+        font-weight: 300;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+strong {
+    font-weight: 700;
+}
+
+i {
+    font-style: italic;
+}
+
+.border-grey {
+    border: 1px solid $background-grey-color;
+}
+
+.btn:focus {
+    color: white;
+    //text-decoration: none;
+}
+
+.btn-main {
+    color: white;
+    @extend .gradient-green-back;
+    &:hover {
+        color: white;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+}
+
+.grey-light-icon {
+    color: $grey-light-color;
+}
+
+.grey-text {
+    color: #4c4c4c;
+}
+
+.content-article {
+    margin-top: 2rem;
+}
+
+.img-circle {
+    padding: 5rem;
+    width: 75%;
+    margin: 0 auto;
+    max-width: 22rem;
+}
+
+.division-line {
+    width: 4rem;
+    height: 0.5rem;
+    margin: 20px auto;
+    @extend .gradient-blue-back;
+}
+
+.division-2rem {
+    margin-top: 2rem;
+}
+
+.division-20px {
+    margin-top: 20px;
+}
+
+.icon-small {
+    font-size: 2rem;
+    color: $light-green;
+}
+
+.icons {
+    font-size: 3rem;
+    margin-bottom: 90px;
+    a {
+        color: white;
+        &:hover {
+            color: $light-green;
+        }
+    }
+    a + a {
+        padding-left: 2rem;
+    }
+}
+
+.arrow-down-button {
+    font-size: 3rem;
+    a {
+        color: white;
+        &:hover {
+            color: $light-green;
+        }
+    }
+    @extend .scroll-animate;
+}
+
+.btn-lg {
+    min-width: 10rem;
+}
+
+// remove margin top
+@media (min-width: $screen-sm) {
+    .remove-margin-sm {
+        margin-top: 0 !important;
+    }
+}
+
+@media (min-width: $screen-md) {
+    .btn-main {
+        &:hover {
+            background: rgba(0, 0, 0, 0);
+            color: $light-green;
+            border: 1px solid $light-green;
+        }
+    }
+}

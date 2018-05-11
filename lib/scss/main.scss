@@ -1,0 +1,27 @@
+// External files
+@import 'normalize';
+@import 'font-awesome';
+@import 'reset';
+
+@import 'variables';
+@import 'custom-variables';
+@import 'mixins/mixins';
+
+// setting open sans font
+@import 'fonts';
+
+// using bootstrap
+@import "grid";
+@import "typography";
+@import "scaffolding";
+@import "forms";
+@import "buttons";
+@import 'alerts';
+@import 'close';
+
+@import 'custom-background';
+@import 'custom-animation';
+@import 'navbar';
+@import 'global';
+@import 'home';
+@import 'animation';

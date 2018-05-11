@@ -1,0 +1,11 @@
+.gradient-blue-back {
+	@include gradient-directional($light-blue, $dark-blue);
+}
+
+.gradient-green-back {
+	@include gradient-directional($light-green, $dark-green);
+}
+
+.grey-background {
+	background: $background-grey-color;
+}
