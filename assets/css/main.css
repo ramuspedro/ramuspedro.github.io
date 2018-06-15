@@ -93,12 +93,30 @@
   font-weight: 900;
 }
 
+#header .button-actions {
+  min-width: 320px;
+  margin-top: 2rem;
+}
+
 #header .button-actions a {
   margin-top: 1rem;
 }
 
 #header .button-actions a:not(:first-child) {
   margin-left: 1rem;
+}
+
+.icon-social-network {
+}
+
+.icon-social-network i {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em;
+  font-size: 18px;
+  color: #fd5454;
+  background: white;
 }
 
 @media only screen and (max-width: 768px) {
