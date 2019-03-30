@@ -1,0 +1,23 @@
+{
+  "name": "ramuspedro.github.io",
+  "version": "1.0.0",
+  "description": "Welcome to my portfolio. Please send a message to ramuspedro@gmail.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramuspedro/ramuspedro.github.io.git"
+  },
+  "author": "Pedro Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramuspedro/ramuspedro.github.io/issues"
+  },
+  "homepage": "https://github.com/ramuspedro/ramuspedro.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
