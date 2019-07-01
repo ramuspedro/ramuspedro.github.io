@@ -6,3 +6,100 @@ h3 small {
 #header nav ul li a {
     min-width: 9rem;
 }
+
+.float {
+    position: absolute !important;
+    margin-top: 3rem !important;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 40px;
+    background-color: rgb(255, 255, 255);
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+a.float::before {
+    display: none !important;
+}
+
+.my-float {
+    margin-top: 5px;
+    height: 3rem;
+}
+
+/*== start of code for tooltips ==*/
+.tool {
+    cursor: help;
+    position: relative;
+}
+
+
+/*== common styles for both parts of tool tip ==*/
+.tool::before,
+.tool::after {
+    font-weight: 900;
+    border: 1px solid;
+    right: 120%;
+    // left: 50%;
+    opacity: 0;
+    position: absolute;
+    z-index: -100;
+}
+
+.tool:hover::before,
+.tool:focus::before,
+.tool:hover::after,
+.tool:focus::after {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    z-index: 100;
+}
+
+
+/*== pointer tip ==*/
+.tool::before {
+    border-style: solid;
+    border-width: 1em 0.75em 0 0.75em;
+    border-color: #3E474F transparent transparent transparent;
+    bottom: 100%;
+    content: "";
+    margin-left: -0.5em;
+    transition: all .65s cubic-bezier(.84, -0.18, .31, 1.26), opacity .65s .5s;
+    transform: scale(.6) translateY(-90%);
+}
+
+.tool:hover::before,
+.tool:focus::before {
+    transition: all .65s cubic-bezier(.84, -0.18, .31, 1.26) .2s;
+}
+
+
+/*== speech bubble ==*/
+.tool::after {
+    background: #3E474F;
+    border-radius: .25em;
+    // bottom: 180%;
+    color: #EDEFF0;
+    content: attr(data-tip);
+    margin-left: -8.75em;
+    padding: 1em;
+    transition: all .65s cubic-bezier(.84, -0.18, .31, 1.26) .2s;
+    transform: scale(.6) translateY(50%);
+    width: 17.5em;
+}
+
+.tool:hover::after,
+.tool:focus::after {
+    transition: all .65s cubic-bezier(.84, -0.18, .31, 1.26);
+}
+
+@media (max-width: 760px) {
+    .tool::after {
+        font-size: .75em;
+        margin-left: -5em;
+        width: 10em;
+    }
+}
